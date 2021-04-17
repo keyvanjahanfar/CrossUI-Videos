@@ -14,7 +14,7 @@ xui.ini.$PageAppearance = {
     "background":{
         "background-color":"#00008B"
     },
-    "theme":"electricity"
+    "theme":"default"
 };
 // ]]Page Appearance
 // To set Font Icons CDN
@@ -97,7 +97,6 @@ xui.$cache.functions = {
     }
 };
 // ]]Global Functions
-
 // [[Global Data
 xui.$cache.data = {
     "$DATE_FORMAT":"gmt"
@@ -110,12 +109,12 @@ xui.constant = {
 };
 // ]]Constant Data
 
-
 // [[Develop Env Setting
 xui.ini.$DevEnv = {
     "designViewConf":{
-        "width":800,
-        "height":600
+        "touchDevice":true,
+        "width":1280,
+        "height":720
     }
 };
 // ]]Develop Env Setting
